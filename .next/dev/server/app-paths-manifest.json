@@ -1,0 +1,7 @@
+{
+  "/api/gemini-feedback/route": "app/api/gemini-feedback/route.js",
+  "/assistant/page": "app/assistant/page.js",
+  "/page": "app/page.js",
+  "/quiz/page": "app/quiz/page.js",
+  "/shop/page": "app/shop/page.js"
+}

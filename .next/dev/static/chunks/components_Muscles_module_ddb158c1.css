@@ -1,0 +1,52 @@
+/* [project]/components/Muscles.module.css [app-client] (css) */
+.Muscles-module__C_CNTG__svgContainer, .Muscles-module__C_CNTG__svgContainerDark {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.Muscles-module__C_CNTG__illustration, .Muscles-module__C_CNTG__illustrationDark {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.Muscles-module__C_CNTG__illustration path, .Muscles-module__C_CNTG__illustrationDark path {
+  z-index: 0;
+  position: relative;
+}
+
+.Muscles-module__C_CNTG__illustration .Muscles-module__C_CNTG__empty, .Muscles-module__C_CNTG__illustration .Muscles-module__C_CNTG__muscle {
+  fill: #757575;
+}
+
+.Muscles-module__C_CNTG__illustrationDark .Muscles-module__C_CNTG__empty, .Muscles-module__C_CNTG__illustrationDark .Muscles-module__C_CNTG__muscle {
+  fill: #25262b;
+}
+
+.Muscles-module__C_CNTG__muscleContainer {
+  z-index: 1;
+  cursor: pointer;
+}
+
+.Muscles-module__C_CNTG__illustration .Muscles-module__C_CNTG__muscle.Muscles-module__C_CNTG__enabled {
+  fill: #bdbdbd;
+}
+
+.Muscles-module__C_CNTG__illustrationDark .Muscles-module__C_CNTG__muscle.Muscles-module__C_CNTG__enabled {
+  fill: #5c5f66;
+}
+
+.Muscles-module__C_CNTG__muscle.Muscles-module__C_CNTG__enabled.Muscles-module__C_CNTG__hover {
+  fill: var(--chart-2);
+  cursor: pointer;
+}
+
+.Muscles-module__C_CNTG__muscle.Muscles-module__C_CNTG__enabled.Muscles-module__C_CNTG__active {
+  fill: var(--chart-3);
+}
+
+/*# sourceMappingURL=components_Muscles_module_ddb158c1.css.map*/
