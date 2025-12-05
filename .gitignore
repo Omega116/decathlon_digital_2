@@ -3,4 +3,6 @@
 
 .env
 
+.next
+.next/
 .next/dev
